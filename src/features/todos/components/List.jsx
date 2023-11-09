@@ -58,7 +58,8 @@ const List = () => {
           if (todo.isDone) {
             return (
               <StTodoContainer key={todo.id}>
-                <StLink to={`/${todo.id}`} key={todo.id}> // 5번 코드
+                {/* 5번코드 */}
+                <StLink to={`/${todo.id}`} key={todo.id}>
                   <div>상세보기</div>
                 </StLink>
                 <div>
